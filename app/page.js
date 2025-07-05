@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-white p-10"> 
+    <div className="bg-white p-4 sm:p-6 lg:p-10"> 
       <Navbar></Navbar>
       <HeroSection></HeroSection>
       <AboutSection></AboutSection>

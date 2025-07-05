@@ -1,9 +1,9 @@
 export default function MapSection() {
   return (
-    <section id="map" className="px-0 py-16 mt-8 w-full rounded-4xl">
-      <div className="w-full bg-white/30 backdrop-blur-md border border-white/40 rounded-none p-0 shadow-lg rounded-4xl">
-        <h2 className="text-2xl font-bold mb-4 text-gray-900 text-center pt-8">Nous trouver</h2>
-        <div className="w-full h-96 rounded-none overflow-hidden rounded-4xl">
+    <section id="map" className="px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16 mt-4 sm:mt-8 w-full">
+      <div className="w-full bg-white/30 backdrop-blur-md border border-white/40 rounded-2xl p-0 shadow-lg overflow-hidden">
+        <h2 className="text-xl sm:text-2xl font-bold mb-4 text-gray-900 text-center pt-6 sm:pt-8">Nous trouver</h2>
+        <div className="w-full h-64 sm:h-80 lg:h-96 overflow-hidden">
           {/* Remplacez l'URL ci-dessous par celle de votre adresse exacte si besoin */}
           <iframe
             title="Google Map"
