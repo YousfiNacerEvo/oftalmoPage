@@ -1,5 +1,4 @@
 "use client"
-import Image from "next/image";
 
 export default function AboutSection() {
   return (
@@ -9,13 +8,10 @@ export default function AboutSection() {
         <div className="relative w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64">
           <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl transform rotate-3"></div>
           <div className="relative w-full h-full rounded-2xl overflow-hidden shadow-lg">
-            <Image
+            <img
               src="/child.jfif"
               alt="Portrait de l'ophtalmologue"
-              width={256}
-              height={256}
               className="object-cover w-full h-full"
-              priority
             />
           </div>
         </div>
